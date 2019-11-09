@@ -1,0 +1,4 @@
+9606.tsv.gz in D_DRIVE
+gunzip 9606.tsv.gz
+[cb2@localhost sf_D_DRIVE]$ cat 9606.tsv | sort | uniq -c | grep PF[[:alnum:]] | wc -c > domaincount.txt
+domain count = 12785754
