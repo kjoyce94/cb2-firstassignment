@@ -862,6 +862,12 @@ Cycloclasticus_P1_uid176368                                                     
 Cycloclasticus_zancles_7_ME_uid214092                                                  Paenibacillus_polymyxa_CR1_uid231659
 Cylindrospermum_stagnale_PCC_7417_uid183111                                            Paenibacillus_polymyxa_E681_uid53477
 Cytophaga_hutchinsonii_ATCC_33406_uid57651                                             Paenibacillus_polymyxa_M1_uid162159
+
+
+Problem 3
+[cb2@localhost Bacteria]$ ls -l | grep Pseudomonas__* | wc -l
+7
+
 Dactylococcopsis_salina_PCC_8305_uid183341                                             Paenibacillus_polymyxa_SC2_uid59583
 Dechloromonas_aromatica_RCB_uid58025                                                   Paenibacillus_terrae_HPL_003_uid82371
 Dechlorosoma_suillum_PS_uid81439                                                       Paenibacillus_Y412MC10_uid41127
