@@ -980,3 +980,24 @@ Enterococcus_casseliflavus_EC20_uid55693                                        
 Enterococcus_faecalis_62_uid159663                                                     Pseudomonas_ND6_uid167583
 Enterococcus_faecalis_D32_uid171261                                                    Pseudomonas_TKP_uid232248
 Enterococcus_faecalis_OG1RF_uid54927                                                   Pseudomonas_VLB120_uid226717
+
+
+
+
+
+
+Problem 3
+[cb2@localhost Bacteria]$ ls -l | grep Pseudomonas__* | wc -l
+7
+
+Problem 4
+[cb2@localhost sf_D_DRIVE]$ read -p File:  NC_000913.faa
+File:echo (cat $NC_000913.faa |grep -v ">" | tr -d "n\" | wc -c)/(cat $NC_000913.faa | grep ">" | wc -l | bc
+
+
+read -p "File: " FILE
+echo $(cat $FILE | grep -v ">" | tr -d "\n" | wc -c)/$(cat $FILE | grep ">" | wc -l) | bc
+
+
+
+
