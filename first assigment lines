@@ -992,7 +992,8 @@ Problem 3
 
 Problem 4
 [cb2@localhost sf_D_DRIVE]$ read -p File:  NC_000913.faa
-File:echo (cat $NC_000913.faa |grep -v ">" | tr -d "n\" | wc -c)/(cat $NC_000913.faa | grep ">" | wc -l | bc
+ echo $(cat NC_000913.faa | grep -v ">" | tr -d "\n" | wc -c )/ $(cat NC_000913.faa | grep ">" | wc -l) | bc
+ 316
 
 
 read -p "File: " FILE
